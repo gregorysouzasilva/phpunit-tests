@@ -1,8 +1,8 @@
 # phpunit-tests
-Github hook pre-commit and some automatic tests
+Github hook pre-commit that show progress.
 
-# .git/hooks/pre-commit
-
+## .git/hooks/pre-commit
+```
 #!/bin/bash
 
 exec < /dev/tty
@@ -22,3 +22,4 @@ if [[ $rc != 0 ]] ; then
 fi
 
 exit $rc;
+```
