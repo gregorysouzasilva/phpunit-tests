@@ -23,3 +23,6 @@ fi
 
 exit $rc;
 ```
+## testing hook
+````
+git hook run pre-commit
